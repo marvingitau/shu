@@ -1,0 +1,38 @@
+.event-poster img {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 32px);
+    object-fit: cover;
+    object-position: center;
+    left: 16px;
+    top: 0;
+}
+.active-event {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33.3%;
+    height: 100%;
+}
+.active-event > div {
+    height: 100%;
+}
+.first-col .event-item {
+    margin: 0px 0px 24px;
+}
+.active-event > div::before {
+    content: "";
+    position: absolute;
+    background: rgba(236, 32, 39,.8);
+    height: 100%;
+    width: 100%;
+}
+.event-content.position-relative.text-white {
+    padding: 65px;
+}
+
+
+.events-home {
+	background: #FBF7F5;
+	padding: 60px 0px;
+}
